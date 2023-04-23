@@ -49,13 +49,13 @@ bool PlayerCostumeInfo::isNeedSyncBodyHair() const {
     if (!((char)v1))
         return false;
     if ((v1 & 0xFF00000000LL) && mPlayerHeadCostumeInfo->mIsMario64)
-        return false;
+        return true;
     return !mPlayerBodyCostumeInfo->mIsMario64;
 #else
     if (!mPlayerBodyCostumeInfo->mIsUseBodyHair)
         return false;
     if (mPlayerBodyCostumeInfo->mIsMario64 && mPlayerHeadCostumeInfo->mIsMario64)
-        return false;
+        return true;
     return !mPlayerBodyCostumeInfo->mIsMario64;
 #endif
 }
