@@ -10,7 +10,7 @@ public:
     bool mIsPreventHead = false;
     bool mIsEnableBigEar = false;
     bool mIsEnableHairNoCap = false;
-    bool mIsMario64 = false;
+    bool mIsMario64 = true;
     bool mIsHaveShort = false;
     bool mIsHideBeard = false;
     bool mIsHideEarringPeach = false;
@@ -33,7 +33,7 @@ public:
     bool mIsExistHairNoCap = false;
     bool mIsUseShortHead = false;
     bool mIsNoPairHead = false;
-    bool mIsMario64 = false;
+    bool mIsMario64 = true;
     bool mIsHidePainNose = false;
     bool mIsUseBeard = false;
     bool mIsUseEarringPeach = false;
